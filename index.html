@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<?php
+
+if (isset($_POST['formulario'])){
+	$pulsado++;	
+	$tema=$_GET['tema'];
+	echo "Pulsado: " . $pulsado . "<br>";
+	echo "Tema elegido: " . $tema . "<br>";
+} else {
+		$pulsado=0;
+}
+
+?>
+
+<form id="formulario" action="leer_apartados.php" method="get" >
+	<p><label for="temas">Tema:</label>
+    <select name='tema' id='tema' >
+		<option>Constitución</option>
+        <option>Administración local</option>
+        <option>SAS</option>;
+       </select></p>
+      
+       <p><input type="submit" name="formulario" value="Ejecutar"></p>
+</form>
+</body>
+</html>

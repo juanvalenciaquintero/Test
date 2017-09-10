@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	
+	width:40%;
+	text-align:center;
+	background-color:#1B5796;
+	color:#FDFDFD;
+	border-radius:15px;
+	padding: 20px 30px;
+	box-shadow:#7F7D7D 5px 5px 10px;
+	margin:auto;
+	margin-top:20px;
+	
+}
+
+#formulario{
+	
+	width:60%;
+	background-color:#E2F5E3;
+	border: 1px #000000 solid;
+	padding:40px 40px 5px 40px;
+	margin:auto;	
+	margin-top:40px;
+	border-radius:15px;
+	
+}
+#formulario2{
+	
+	width:60%;
+	background-color:#E2F5E3;
+	border: 1px #000000 solid;
+	padding:40px;
+	margin:auto;	
+	
+}
+
+#borrar{
+	margin-left:20px;	
+}

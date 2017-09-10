@@ -1,0 +1,15 @@
+<?xml version='1.2' encoding='utf-8'?>
+<widget id="com.valencia.test" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="">
+    <name>Test</name>
+    <description>
+ Test para oposiciones</description>
+    <author email="juannuffin@hotmail.com" href="#">
+        Juan Valencia  </author>
+    <content src="index.html" />
+    <access origin="*" />
+<icon src="logo-36x36.png" platform="android" qualifier="ldpi" />
+<icon src="logo-48x48.png" platform="android" qualifier="mdpi" />
+<icon src="logo-72x72.png" platform="android" qualifier="hdpi" />
+<icon src="logo-96x96.png" platform="android" qualifier="xhdpi" />
+
+</widget>
